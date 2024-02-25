@@ -1,0 +1,30 @@
+
+.text-con {
+    scroll-behavior: smooth;
+    height: 80vh;
+    overflow: scroll;
+}
+
+.icon {
+    width: 80px;
+    margin-right: 5px;
+}
+
+/* .icon:hover {
+    cursor: pointer;
+} */
+
+.mouse-hover {
+    cursor: pointer;
+}
+
+
+/* Migros css */
+#inactive {
+    opacity: 0.1;
+}
+
+#active {
+    opacity: 1;
+}
+
