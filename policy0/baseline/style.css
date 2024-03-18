@@ -1,0 +1,6 @@
+
+.text-con {
+    scroll-behavior: smooth;
+    height: 80vh;
+    overflow: scroll;
+}
