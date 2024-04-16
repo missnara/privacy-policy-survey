@@ -14,29 +14,29 @@
 <body>
    <div class="container">
       <div class="row" style="padding-top: 30px">
-         <div class="col-12 col-md-4">
-            <h2 class="mb-3">Privacy Practices</h2>
+         <div class="col-6 col-md-4">
+            <h5 class="mb-3">Privacy Practices</h5>
             <hr />
 
             <div class="mb-2">
-               <h5>Type of personal data</h5>
+               <h6>Type of personal data</h6>
                <i id="icon1" class="icon pi-general-data" title="General Data"
                   onclick="highlight('tpd-gen', 'icon1')"></i>
-               <i id="icon2" class="icon pi-financial-data" title="Financial Data"
+               <i id="icon2" class="icon pi-financial-data inactive" title="Financial Data"
                   onclick="highlight('tpd-fin', 'icon2')"></i>
-               <i id="icon3" class="icon pi-health-data" title="Health Data"
+               <i id="icon3" class="icon pi-health-data inactive" title="Health Data"
                   onclick="highlight('tpd-hea', 'icon3')"></i>
                <i id="icon4" class="icon pi-location-data" title="Location Data"
                   onclick="highlight('tpd-loc', 'icon4')"></i>
-               <i id="icon5" class="icon pi-biometric-data" title="Biometric Data"
+               <i id="icon5" class="icon pi-biometric-data inactive" title="Biometric Data"
                   onclick="highlight('tpd-bio', 'icon5')"></i>
-               <i id="icon6" class="icon pi-intimate-data" title="Intimate Data"
+               <i id="icon6" class="icon pi-intimate-data inactive" title="Intimate Data"
                   onclick="highlight('tpd-int', 'icon6')"></i>
             </div>
             <hr />
 
             <div class="mb-2">
-               <h5>Source of personal date</h5>
+               <h6>Source of personal date</h6>
                <i id="icon7" class="icon pi-provided-data" title="Provided Data"
                   onclick="highlight('spd-pro', 'icon7')"></i>
                <i id="icon8" class="icon pi-collected-data" title="Collected Data"
@@ -47,29 +47,31 @@
             <hr />
 
             <div class="mb-2">
-               <h5>Purpose of processing</h5>
+               <h6>Purpose of processing</h6>
                <i id="icon10" class="icon pi-marketing" title="Marketing" onclick="highlight('pp-mar', 'icon10')"></i>
-               <i id="icon11" class="icon pi-product-development" title="Product Development"
+               <i id="icon11" class="icon pi-product-development" title="Service/Product Development"
                   onclick="highlight('pp-dev', 'icon11')"></i>
                <i id="icon12" class="icon pi-other-purposes" title="Other Purposes"
                   onclick="highlight('pp-oth', 'icon12')"></i>
-               <i id="icon13" class="icon pi-automated-decision-making" title="Automated Decision Making"
+               <i id="icon13" class="icon pi-automated-decision-making inactive" title="Automated Decision Making"
                   onclick="highlight('pp-aut', 'icon13')"></i>
                <i id="icon14" class="icon pi-profiling" title="Profiling" onclick="highlight('pp-pro', 'icon14')"></i>
             </div>
             <hr />
 
             <div class="mb-2">
-               <h5>Passing on to third party</h5>
+               <h6>Passing on to third party</h6>
                <i id="icon15" class="icon pi-data-transfers" title="Data Transfers"
                   onclick="highlight('ptp-tra', 'icon15')"></i>
-               <i id="icon16" class="icon pi-data-sale" title="Data Sale" onclick="highlight('ptp-sal', 'icon16')"></i>
+               <i id="icon15n" class="icon pi-data-transfers-neg" title="Data Transfers"
+                  onclick="highlight('ptp-tra-neg', 'icon15')"></i>
+               <i id="icon16" class="icon pi-data-sale-neg" title="Data Sale" onclick="highlight('ptp-sal-neg', 'icon16')"></i>
             </div>
             <hr />
          </div>
 
-         <div class="col-12 col-md-8">
-            <h2 class="mb-3">Privacy Policy</h2>
+         <div class="col-6 col-md-8">
+            <h5 class="mb-3">Privacy Policy</h5>
             <div class="text-con">
 
                <div id="p1">
@@ -77,30 +79,43 @@
                   <br> <br>Movie Archive knows that you care how information about you is used and shared, and we
                   appreciate your trust that we will do so carefully and sensibly. <br> <br>By visiting Movie Archive,
                   you are accepting the practices described in this Privacy Notice. <br> <br><strong> What Personal
-                     Information About Users Does Movie Archive Gather- </strong> <br> <br> The information we learn
-                  from users helps us personalize and continually improve your experience at Movie Archive. Here are the
-                  types of information we gather. <br> <br><strong> Information You Give Us : </strong> We receive and
-                  store any information you enter on our Web site or give us in any other way. Click here to see
+                     Information About Users Does Movie Archive Gather- </strong> <br> <br> <span class="box pp-dev">
+                        The information we learn from users helps us personalize and continually improve your experience at Movie Archive.
+                     </span> Here are the
+                  types of information we gather. <br> <br><strong> 
+                     Information You Give Us : </strong> <span class="box spd-pro">We receive and
+                     store any information you enter on our website or give us in any other way.
+                  </span> Click here to see
                   examples of what we collect. You can choose not to provide certain information, but then you might not
-                  be able to take advantage of many of our features. We use the information that you provide for such
-                  purposes as responding to your requests, customizing future browsing for you, improving our site, and
-                  communicating with you. <br> <br><strong> Automatic Information : </strong> We receive and store
-                  certain types of information whenever you interact with us. For example, like many Web sites, we use
-                  "cookies," and we obtain certain types of information when your Web browser accesses Movie Archive or
-                  advertisements and other content served by or on behalf of Movie Archive on other Web sites. Click
+                  be able to take advantage of many of our features. <span class="box pp-dev">
+                     We use the information that you provide for such
+                     purposes as responding to your requests, customizing future browsing for you, improving our site, and
+                     communicating with you.
+                  </span> <br> <br><strong> Automatic Information : </strong> <span class="box spd-rec">
+                     We receive and store
+                     certain types of information whenever you interact with us. For example, like many Web sites, we use
+                     "cookies," and we obtain certain types of information when your Web browser accesses Movie Archive or
+                     advertisements and other content served by or on behalf of Movie Archive on other Web sites.
+                  </span> Click
                   here to see examples of the information we receive. <br> <br><strong> E-mail Communications :
-                  </strong> To help us make e-mails more useful and interesting, we often receive a confirmation when
-                  you open e-mail from Movie Archive if your computer supports such capabilities. We also compare our
-                  user list to lists received from other companies, in an effort to avoid sending unnecessary messages
-                  to our users. If you do not want to receive e-mail or other mail from us, please use our User
-                  Administration pages to adjust your preferences. <br> <br><strong> Mobile : </strong> When you
-                  download or use apps created by Movie Archive, we may receive information about your location and your
-                  mobile device, including a unique identifier for your device. We may use this information to provide
-                  you with location-based services, such as advertising, local showtimes, search results, and other
-                  personalized content. Most mobile devices allow you to turn off location services. For more
+                  </strong> <span class="box tpd-gen spd-col">
+                     To help us make e-mails more useful and interesting, we often receive a confirmation when
+                     you open e-mail from Movie Archive if your computer supports such capabilities. We also compare our
+                     user list to lists received from other companies, in an effort to avoid sending unnecessary messages
+                     to our users. If you do not want to receive e-mail or other mail from us, please use our User
+                     Administration pages to adjust your preferences.
+                  </span> <br> <br><strong> Mobile : </strong> <span class="box tpd-loc pp-dev">
+                     When you
+                     download or use apps created by Movie Archive, we may receive information about your location and your
+                     mobile device, including a unique identifier for your device. We may use this information to provide
+                     you with location-based services, such as advertising, local showtimes, search results, and other
+                     personalized content. Most mobile devices allow you to turn off location services.
+                  </span> For more
                   information about how to do this, click here. <br> <br><strong> Information from Other Sources :
-                  </strong> We might receive information about you from other sources and add it to our account
-                  information. Click here to see examples of the information we receive. <br> <br><strong> What About
+                  </strong> <span class="box spd-col">
+                     We might receive information about you from other sources and add it to our account
+                     information.
+                  </span> Click here to see examples of the information we receive. <br> <br><strong> What About
                      Cookies- </strong> <br> <br>
                   <ul>
                      <li> Cookies are alphanumeric identifiers that we transfer to your computer's hard drive through
@@ -118,19 +133,25 @@
                   </ul>
                   </li>
                   <ul>
-                     <li> We use web beacons (also known as "action tags" or "single-pixel gifs") and other technologies
-                        to measure the effectiveness of certain site features and to conduct research and analysis. We
-                        also allow third parties to place web beacons and other technologies on our site to conduct
-                        research and analysis, but we do not provide personal information to such third parties.
+                     <li> <span class="box ptp-tra-neg pp-oth">We use web beacons (also known as "action tags" or "single-pixel gifs") and other technologies
+                        to measure the effectiveness of certain site features and to conduct research and analysis. 
+                           We
+                           also allow third parties to place web beacons and other technologies on our site to conduct
+                           research and analysis, but we do not provide personal information to such third parties.
+                        </span>
                   </ul>
-                  </li><strong> Does Movie Archive Share the Information It Receives- </strong> <br> <br> Information
-                  about our users is an important part of our business, and we are not in the business of selling it to
-                  others. We share user information with our parent corporation (Retail.com, Inc.), the subsidiaries it
+                  </li><strong> Does Movie Archive Share the Information It Receives- </strong> <br> <br> <span class="box ptp-sal-neg">
+                     Information
+                     about our users is an important part of our business, and we are not in the business of selling it to
+                     others.
+                  </span> We share user information with our parent corporation (Retail.com, Inc.), the subsidiaries it
                   controls, and as described below. <br> <br><strong> Affiliated Businesses We Do Not Control :
-                  </strong> We work closely with our affiliated businesses. In some cases, we will include offerings
-                  from these businesses on Movie Archive. In other cases, we may include joint offerings from Movie
-                  Archive and these businesses on Movie Archive. You can tell when another business is involved in the
-                  offering, and we share user information related to those offerings with that business. <br>
+                  </strong> <span class="box ptp-tra pp-mar">
+                     We work closely with our affiliated businesses. In some cases, we will include offerings
+                     from these businesses on Movie Archive. In other cases, we may include joint offerings from Movie
+                     Archive and these businesses on Movie Archive. You can tell when another business is involved in the
+                     offering, and we share user information related to those offerings with that business.
+                  </span> <br>
                   <br><strong> Agents : </strong> We employ other companies and individuals to perform functions on our
                   behalf. Examples include sending e-mail, removing repetitive information from user lists, analyzing
                   data, and providing marketing assistance. They have access to personal information needed to perform
@@ -142,14 +163,18 @@
                   buy additional services or business units. In such transactions, user information generally is
                   transferred along with the rest of the service or business unit. Also, in the event that Movie
                   Archive, Inc., or substantially all of its assets are acquired, user information will of course be
-                  included in the transaction. <br> <br><strong> Protection of Movie Archive and Others : </strong> We
-                  release account and other personal information when we believe release is appropriate to comply with
-                  law; enforce or apply our Terms and Conditions of Use and other agreements; or protect the rights,
-                  property, or safety of Movie Archive, our users, or others. This includes exchanging information with
-                  other companies and organizations for fraud protection and credit risk reduction. Obviously, however,
-                  this does not include selling, renting, sharing, or otherwise disclosing personally identifiable
-                  information from customers for commercial purposes in violation of the commitments set forth in this
-                  Privacy Notice. <br> <br><strong> With Your Consent : </strong> Other than as set out above, you will
+                  included in the transaction. <br> <br><strong> Protection of Movie Archive and Others : </strong> <span class="box ptp-tra">
+                     We
+                     release account and other personal information when we believe release is appropriate to comply with
+                     law; enforce or apply our Terms and Conditions of Use and other agreements; or protect the rights,
+                     property, or safety of Movie Archive, our users, or others. This includes exchanging information with
+                     other companies and organizations for fraud protection and credit risk reduction.
+                  </span> <span class="box ptp-sal-neg">
+                     Obviously, however,
+                     this does not include selling, renting, sharing, or otherwise disclosing personally identifiable
+                     information from customers for commercial purposes in violation of the commitments set forth in this
+                     Privacy Notice
+                  </span>. <br> <br><strong> With Your Consent : </strong> Other than as set out above, you will
                   always receive notice when information about you might go to third parties, and you will have an
                   opportunity to choose not to share the information. <br> <br> <strong> What About Third-Party
                      Advertisers- </strong> <br> <br> Our site includes third-party advertising and links to other
@@ -164,13 +189,17 @@
                   covered by this Privacy Notice. Please contact them directly for more information about their privacy
                   practices. In addition, the Network Advertising Initiative offers useful information about Internet
                   advertising companies (also called "ad networks" or "network advertisers"), including information
-                  about how to opt-out of their information collection. <br> <br>Movie Archive also displays
-                  personalized third-party advertising based on personal information about users, such as information
-                  you submit to us about movies you own or have watched. Click here for more information about the
-                  personal information that we gather. Although Movie Archive does not provide any personal information
-                  to advertisers, advertisers (including ad-serving companies) may assume that users who interact with
-                  or click on a personalized advertisement meet their criteria to personalize the ad (for example, users
-                  in the northwestern United States who bought, watched, or browsed for romantic comedies). If you do
+                  about how to opt-out of their information collection. <br> <br><span class="box pp-mar">
+                     Movie Archive also displays
+                     personalized third-party advertising based on personal information about users, such as information
+                     you submit to us about movies you own or have watched.
+                  </span>Click here for more information about the
+                  personal information that we gather. <span class="box pp-pro">
+                     Although Movie Archive does not provide any personal information
+                     to advertisers, advertisers (including ad-serving companies) may assume that users who interact with
+                     or click on a personalized advertisement meet their criteria to personalize the ad (for example, users
+                     in the northwestern United States who bought, watched, or browsed for romantic comedies).
+                  </span> If you do
                   not want us to use personal information that we gather to allow third parties to personalize
                   advertisements we display to you, please adjust your Advertising Preferences. <br> <br><strong> How
                      Secure Is Information About Me- </strong> <br> <br> If you use our subscription service, we work to
