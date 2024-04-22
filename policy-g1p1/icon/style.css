@@ -1,0 +1,46 @@
+.text-con {
+   scroll-behavior: smooth;
+   height: 80vh;
+   overflow: scroll;
+}
+
+.icon {
+   /* width: 60px; */
+   /* height: 500px; */
+   font-size: 65px;
+   margin-right: 5px;
+   /* transition: 200ms; */
+   border-radius: 4px;
+}
+
+.icon:hover {
+   cursor: pointer;
+   /* background-color: #24D8A5; */
+}
+
+/* .icon:active {
+   background-color: #24d8a5;
+} */
+
+.selected {
+   transition: 150ms;
+   background-color: #a7caea;
+   color: #fff;
+}
+
+.mouse-hover {
+   cursor: pointer;
+}
+
+
+.active {
+   opacity: 1;
+}
+
+.inactive {
+   opacity: 0.1;
+}
+
+.inactive:hover {
+   cursor: not-allowed !important;   
+}
