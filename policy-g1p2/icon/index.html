@@ -20,75 +20,79 @@
 
             <div class="mb-2">
                <h6>Type of personal data</h6>
-               <i id="icon1" class="icon pi-general-data" title="General Data"
-                  onclick="highlight('tpd-gen', 'icon1')"></i>
+               <i id="icon1" class="icon pi-general-data" title="General Data" onclick="highlight('tpd-gen', 'icon1')"></i>   
+               <i id="icon2" class="icon pi-financial-data" title="Financial Data" onclick="highlight('tpd-fin', 'icon2')"></i>
+               <i id="icon4" class="icon pi-location-data inactive" title="Location Data" onclick="highlight('tpd-loc', 'icon4')"></i>
+
                <i id="icon1n" class="icon pi-general-data-neg inactive" title="General Data"
                   onclick="highlight('tpd-gen-neg', 'icon1n')"></i>
-               <i id="icon2" class="icon pi-financial-data inactive" title="Financial Data"
-                  onclick="highlight('tpd-fin', 'icon2')"></i>
-                  <i id="icon2n" class="icon pi-financial-data-neg inactive" title="Financial Data"
+               <i id="icon2n" class="icon pi-financial-data-neg inactive" title="Financial Data"
                   onclick="highlight('tpd-fin-neg', 'icon2n')"></i>
-               <!-- <i id="icon3" class="icon pi-health-data" title="Health Data"
-                  onclick="highlight('tpd-hea', 'icon3')"></i> -->
-               <i id="icon4" class="icon pi-location-data" title="Location Data"
-                  onclick="highlight('tpd-loc', 'icon4')"></i>
-                  <i id="icon4n" class="icon pi-location-data-neg inactive" title="Location Data"
+               <i id="icon4n" class="icon pi-location-data-neg inactive" title="Location Data"
                   onclick="highlight('tpd-loc-neg', 'icon4n')"></i>
-               <!-- <i id="icon5" class="icon pi-biometric-data" title="Biometric Data"
-                  onclick="highlight('tpd-bio', 'icon5')"></i>
-               <i id="icon6" class="icon pi-intimate-data" title="Intimate Data"
-                  onclick="highlight('tpd-int', 'icon6')"></i> -->
+               <!-- <i id="icon3" class="icon pi-health-data inactive" title="Health Data"
+                                 onclick="highlight('tpd-hea', 'icon3')"></i> -->
+               <!-- <i id="icon5" class="icon pi-biometric-data inactive" title="Biometric Data"
+                                 onclick="highlight('tpd-bio', 'icon5')"></i>
+                              <i id="icon6" class="icon pi-intimate-data inactive" title="Intimate Data"
+                                 onclick="highlight('tpd-int', 'icon6')"></i> -->
             </div>
             <hr />
 
             <div class="mb-2">
                <h6>Source of personal data</h6>
-               <i id="icon7" class="icon pi-provided-data" title="Provided Data"
-                  onclick="highlight('spd-pro', 'icon7')"></i>
-                  <i id="icon7n" class="icon pi-provided-data-neg inactive" title="Provided Data"
+               <i id="icon7" class="icon pi-provided-data" title="Provided Data" onclick="highlight('spd-pro', 'icon7')"></i>
+               <i id="icon8" class="icon pi-collected-data" title="Collected Data" onclick="highlight('spd-col', 'icon8')"></i>
+               <i id="icon9" class="icon pi-received-data" title="Received Data" onclick="highlight('spd-rec', 'icon9')"></i>
+
+               <i id="icon7n" class="icon pi-provided-data-neg inactive" title="Provided Data"
                   onclick="highlight('spd-pro-neg', 'icon7n')"></i>
-               <i id="icon8" class="icon pi-collected-data" title="Collected Data"
-                  onclick="highlight('spd-col', 'icon8')"></i>
-                  <i id="icon8n" class="icon pi-collected-data-neg inactive" title="Collected Data"
+               <i id="icon8n" class="icon pi-collected-data-neg inactive" title="Collected Data"
                   onclick="highlight('spd-col-neg', 'icon8n')"></i>
-               <i id="icon9" class="icon pi-received-data" title="Received Data"
-                  onclick="highlight('spd-rec', 'icon9')"></i>
-                  <i id="icon9n" class="icon pi-received-data-neg inactive" title="Received Data"
+               <i id="icon9n" class="icon pi-received-data-neg inactive" title="Received Data"
                   onclick="highlight('spd-rec-neg', 'icon9n')"></i>
-            </div>
+               </div>
             <hr />
 
             <div class="mb-2">
                <h6>Purpose of processing</h6>
                <i id="icon10" class="icon pi-marketing" title="Marketing" onclick="highlight('pp-mar', 'icon10')"></i>
-               <i id="icon10n" class="icon pi-marketing-neg inactive" title="Marketing" onclick="highlight('pp-mar-neg', 'icon10n')"></i>
                <i id="icon11" class="icon pi-product-development" title="Service/Product Development"
                   onclick="highlight('pp-dev', 'icon11')"></i>
-                  <i id="icon11n" class="icon pi-product-development-neg inactive" title="Service/Product Development"
-                  onclick="highlight('pp-dev-neg', 'icon11n')"></i>
-               <i id="icon12" class="icon pi-other-purposes" title="Other Purposes"
+               <i id="icon12" class="icon pi-other-purposes inactive" title="Other Purposes"
                   onclick="highlight('pp-oth', 'icon12')"></i>
-                  <i id="icon12n" class="icon pi-other-purposes-neg inactive" title="Other Purposes"
+
+               <i id="icon10n" class="icon pi-marketing-neg inactive" title="Marketing"
+                  onclick="highlight('pp-mar-neg', 'icon10n')"></i>
+               <i id="icon11n" class="icon pi-product-development-neg inactive" title="Service/Product Development"
+                  onclick="highlight('pp-dev-neg', 'icon11n')"></i>
+               <i id="icon12n" class="icon pi-other-purposes-neg inactive" title="Other Purposes"
                   onclick="highlight('pp-oth-neg', 'icon12n')"></i>
+               
+               
                <i id="icon13" class="icon pi-automated-decision-making inactive" title="Automated Decision Making"
                   onclick="highlight('pp-aut', 'icon13')"></i>
-                  <i id="icon13n" class="icon pi-automated-decision-making-neg inactive" title="Automated Decision Making"
-                  onclick="highlight('pp-aut-neg', 'icon13n')"></i>
                <i id="icon14" class="icon pi-profiling" title="Profiling" onclick="highlight('pp-pro', 'icon14')"></i>
-               <i id="icon14n" class="icon pi-profiling-neg inactive" title="Profiling" onclick="highlight('pp-pro-neg', 'icon14n')"></i>
+
+               <i id="placeholder-icon" class="icon placeholder-icon pi-data-transfers"></i>
+               
+               <i id="icon13n" class="icon pi-automated-decision-making-neg inactive" title="Automated Decision Making"
+                  onclick="highlight('pp-aut-neg', 'icon13n')"></i>
+               <i id="icon14n" class="icon pi-profiling-neg inactive" title="Profiling"
+                  onclick="highlight('pp-pro-neg', 'icon14n')"></i>
             </div>
             <hr />
 
             <div class="mb-2">
                <h6>Passing on to third party</h6>
-               <i id="icon15" class="icon pi-data-transfers" title="Data Transfers"
-                  onclick="highlight('ptp-tra', 'icon15')"></i>
+               <i id="icon15" class="icon pi-data-transfers" title="Data Transfers" onclick="highlight('ptp-tra', 'icon15')"></i>     
+               <i id="icon16" class="icon pi-data-sale inactive" title="Data Sale" onclick="highlight('ptp-sal', 'icon16')"></i>
+
+               <i id="placeholder-icon" class="icon placeholder-icon pi-data-transfers"></i>
+
                <i id="icon15n" class="icon pi-data-transfers-neg" title="Data Transfers"
                   onclick="highlight('ptp-tra-neg', 'icon15n')"></i>
-                  <i id="icon16" class="icon pi-data-sale inactive" title="Data Sale"
-                  onclick="highlight('ptp-sal', 'icon16')"></i>
-               <i id="icon16n" class="icon pi-data-sale-neg" title="Data Sale"
-                  onclick="highlight('ptp-sal-neg', 'icon16n')"></i>
+               <i id="icon16n" class="icon pi-data-sale-neg" title="Data Sale" onclick="highlight('ptp-sal-neg', 'icon16n')"></i>
             </div>
             <hr />
          </div>

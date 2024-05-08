@@ -13,6 +13,11 @@
    border-radius: 4px;
 }
 
+.placeholder-icon {
+   visibility: hidden;  
+   pointer-events: none; 
+ }
+ 
 .icon:hover {
    cursor: pointer;
    /* background-color: #24D8A5; */
