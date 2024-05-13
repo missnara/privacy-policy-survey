@@ -1,0 +1,13 @@
+
+.text-con {
+    scroll-behavior: smooth;
+    height: 80vh;
+    overflow: scroll;
+}
+.inactive {
+    opacity: 0.1;
+ }
+ 
+ .inactive:hover {
+    cursor: not-allowed !important;   
+ }
